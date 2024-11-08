@@ -1,0 +1,103 @@
+/* Style the body and the scrollable page */
+body {
+  font-family: 'Spectral', serif;
+  background-color: #e7dfd8;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header (top bar) */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e7dfd8;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #574533;
+  z-index: 1000;
+}
+
+#logo {
+  font-weight: 600;
+  color: #574533;
+}
+
+nav a {
+  margin: 0 15px;
+  font-weight: 400;
+  color: #574533;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
+
+/* Main content and sections */
+main {
+  margin-top: 70px; /* Add space to avoid overlapping with header */
+}
+
+section {
+  padding: 40px 20px;
+}
+
+#about .box {
+  border: 1px solid #574533;
+  padding: 20px;
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  width: 150px;
+  border: 2px solid #574533;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.intro-text h1 {
+  font-weight: 600;
+  color: #574533;
+  font-size: 3em;
+}
+
+.intro-text p {
+  font-weight: 200;
+}
+
+/* Section Titles */
+h2 {
+  font-weight: 400;
+  color: #574533;
+  font-size: 3em;
+}
+
+h3 {
+  font-weight: 400;
+  color: #827263;
+  font-size: 2em;
+}
+
+/* Contact Buttons */
+.contact-button {
+  background-color: #827263;
+  color: #e7dfd8;
+  font-weight: 400;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+}
+
+/* Make contact buttons clickable */
+.contact-button:hover {
+  opacity: 0.8;
+}
