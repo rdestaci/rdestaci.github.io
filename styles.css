@@ -5,10 +5,10 @@ body {
     color: #000000;
     margin: 0;
     padding: 0;
-  }
-  
-  /* Header (top bar) */
-  header {
+}
+
+/* Header (top bar) */
+header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -18,114 +18,143 @@ body {
     padding: 10px 20px;
     border-bottom: 1px solid #574533;
     z-index: 1000;
-  }
-  
-  #logo {
+}
+
+#logo {
     font-weight: 600;
     color: #574533;
     font-size: 1.2em;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     gap: 15px;
     padding-right: 30px;
-  }
-  
-  nav a {
+}
+
+nav a {
     font-weight: 400;
     color: #574533;
     font-size: 1.1em;
     text-decoration: none;
-  }
-  
-  nav a:hover,
-  nav a.active {
+}
+
+nav a:hover,
+nav a.active {
     text-decoration: underline;
-  }
-  
-  /* Main content styling */
-  main {
+}
+
+/* Main content styling */
+main {
     margin-top: 80px;
-  }
-  
-  section {
+}
+
+section {
     padding: 40px 20px;
-  }
-  
-  /* About section box styling */
-  #about .box {
+}
+
+/* About section box styling */
+#about .box {
     border: 4px solid #827263;
     padding: 60px;
     position: relative;
     max-width: 90%;
     margin: 0 auto;
-    min-height: calc(100vh - 120px); /* Makes box nearly full-screen height */
-  }
-  
-  .profile-pic {
-    width: 300px; /* 2x larger */
+    min-height: calc(75vh - 120px); /* Makes box 1/4 shorter */
+}
+
+.profile-pic {
+    width: 600px; /* 2x larger */
     border: 3px solid #827263;
     position: absolute;
     top: 40px;
     right: 40px;
-  }
-  
-  .intro-text h1 {
+}
+
+.intro-text {
+    text-align: left;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.intro-text .greeting {
+    font-weight: 200;
+    font-size: 1.4em;
+    color: #574533;
+}
+
+.intro-text h1 {
     font-weight: 600;
     color: #574533;
     font-size: 3.5em;
-  }
-  
-  .intro-text p {
+    margin: 0;
+}
+
+.intro-text .pronouns {
     font-weight: 200;
+    font-size: 1em;
+    color: #574533;
+    margin-top: -10px;
+}
+
+.intro-text h2 {
+    font-weight: 400;
+    color: #574533;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.intro-text .description {
+    font-weight: 200;
+    color: #000000;
     font-size: 1.2em;
-  }
-  
-  /* Section Titles */
-  h2 {
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+/* Section Titles */
+h2 {
     font-weight: 400;
     color: #574533;
     font-size: 3.2em;
-  }
-  
-  h3 {
+}
+
+h3 {
     font-weight: 400;
     color: #827263;
     font-size: 2.2em;
-  }
-  
-  /* CV Embed Container */
-  .cv-container {
+}
+
+/* CV Embed Container */
+.cv-container {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-  }
-  
-  .cv-container iframe {
+}
+
+.cv-container iframe {
     max-width: 50%;
     height: 1100px; /* Adjusted to show the full 8.5 x 11 page */
-  }
-  
-  /* Contact Buttons */
-  .contact-button {
+}
+
+/* Contact Buttons */
+.contact-button {
     background-color: #827263;
     color: #e7dfd8;
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1.2em;
     padding: 12px;
     margin: 10px 0;
     text-align: center;
     width: 180px;
     cursor: pointer;
-  }
-  
-  .contact-button a {
+}
+
+.contact-button a {
     color: #e7dfd8;
     text-decoration: none;
-  }
-  
-  .contact-button:hover {
+}
+
+.contact-button:hover {
     opacity: 0.8;
-  }
-  
+}
