@@ -67,8 +67,8 @@ section {
 }
 
 .profile-pic {
-    width: 250px; /* Smaller size */
-    height: 250px; /* Square aspect ratio */
+    width: 200px; /* Smaller size */
+    height: 200px; /* Square aspect ratio */
     border: 3px solid #827263;
     margin-right: 30px;
 }
