@@ -1,4 +1,4 @@
-/* Style the body and the scrollable page */
+/* General styling */
 body {
     font-family: 'Spectral', serif;
     background-color: #e7dfd8;
@@ -23,19 +23,19 @@ body {
   #logo {
     font-weight: 600;
     color: #574533;
-    font-size: 1.2em; /* Slightly larger */
+    font-size: 1.2em;
   }
   
   nav {
     display: flex;
-    gap: 15px; /* Adjust spacing */
-    padding-right: 30px; /* Shift links leftward */
+    gap: 15px;
+    padding-right: 30px;
   }
   
   nav a {
     font-weight: 400;
     color: #574533;
-    font-size: 1.1em; /* Slightly larger */
+    font-size: 1.1em;
     text-decoration: none;
   }
   
@@ -44,9 +44,9 @@ body {
     text-decoration: underline;
   }
   
-  /* Main content and sections */
+  /* Main content styling */
   main {
-    margin-top: 80px; /* Adjusted to avoid overlapping with header */
+    margin-top: 80px;
   }
   
   section {
@@ -56,42 +56,43 @@ body {
   /* About section box styling */
   #about .box {
     border: 4px solid #827263;
-    padding: 40px;
+    padding: 60px;
     position: relative;
     max-width: 90%;
     margin: 0 auto;
+    min-height: calc(100vh - 120px); /* Makes box nearly full-screen height */
   }
   
   .profile-pic {
     width: 300px; /* 2x larger */
     border: 3px solid #827263;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 40px;
+    right: 40px;
   }
   
   .intro-text h1 {
     font-weight: 600;
     color: #574533;
-    font-size: 3.5em; /* Slightly larger */
+    font-size: 3.5em;
   }
   
   .intro-text p {
     font-weight: 200;
-    font-size: 1.2em; /* Slightly larger */
+    font-size: 1.2em;
   }
   
   /* Section Titles */
   h2 {
     font-weight: 400;
     color: #574533;
-    font-size: 3.2em; /* Slightly larger */
+    font-size: 3.2em;
   }
   
   h3 {
     font-weight: 400;
     color: #827263;
-    font-size: 2.2em; /* Slightly larger */
+    font-size: 2.2em;
   }
   
   /* CV Embed Container */
@@ -102,8 +103,8 @@ body {
   }
   
   .cv-container iframe {
-    max-width: 50%; /* Adjusted to center and reduce width */
-    height: 400px;
+    max-width: 50%;
+    height: 1100px; /* Adjusted to show the full 8.5 x 11 page */
   }
   
   /* Contact Buttons */
@@ -111,7 +112,7 @@ body {
     background-color: #827263;
     color: #e7dfd8;
     font-weight: 400;
-    font-size: 1.1em; /* Slightly larger */
+    font-size: 1.1em;
     padding: 12px;
     margin: 10px 0;
     text-align: center;
