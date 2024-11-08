@@ -55,7 +55,7 @@ section {
 
 /* About section box styling */
 #about .box {
-    border: 4px solid #827263;
+    background-color: #5b7a5f; /* Solid background color */
     padding: 30px;
     position: relative;
     max-width: 90%;
@@ -68,9 +68,9 @@ section {
 }
 
 .profile-pic {
-    width: 200px; /* Smaller size */
+    width: 220px; /* Slightly larger size */
     height: auto;
-    border: 3px solid #827263;
+    border: 3px solid #e7dfd8; /* Border color */
     margin-right: 30px;
     margin-left: 0;
 }
@@ -82,37 +82,38 @@ section {
 
 .intro-text .greeting {
     font-weight: 200;
-    font-size: 1.4em;
-    color: #574533;
+    font-size: 1.3em;
+    color: #e7dfd8;
+    margin-bottom: 10px; /* Reduce space between greeting and name */
 }
 
 .intro-text h1 {
     font-weight: 600;
-    color: #574533;
-    font-size: 3.5em;
+    color: #e7dfd8;
+    font-size: 3.6em;
     margin: 0;
 }
 
 .intro-text .pronouns {
     font-weight: 200;
     font-size: 1em;
-    color: #574533;
+    color: #e7dfd8;
     margin-top: -10px;
 }
 
 .intro-text h2 {
     font-weight: 400;
-    color: #574533;
+    color: #e7dfd8;
     font-size: 2.5em;
     margin-top: 20px;
 }
 
 .intro-text .description {
     font-weight: 200;
-    color: #000000;
+    color: #e7dfd8;
     font-size: 1.2em;
     line-height: 1.5;
-    margin-top: 15px;
+    margin-top: 25px; /* Increase space between pronouns and body text */
 }
 
 /* Section Titles */
@@ -142,7 +143,7 @@ h3 {
 
 /* Contact Buttons */
 .contact-button {
-    background-color: #827263;
+    background-color: #5b7a5f; /* Updated to match the new solid color */
     color: #e7dfd8;
     font-weight: 400;
     font-size: 1.2em;
