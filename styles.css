@@ -56,21 +56,23 @@ section {
 /* About section box styling */
 #about .box {
     border: 4px solid #827263;
-    padding: 60px;
+    padding: 30px;
     position: relative;
     max-width: 90%;
     margin: 0 auto;
-    min-height: calc(75vh - 120px); /* Makes box 1/4 shorter */
+    min-height: calc(75vh - 120px); /* Box is 1/4 shorter */
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
 }
 
 .profile-pic {
     width: 200px; /* Smaller size */
-    height: 200px; /* Square aspect ratio */
+    height: auto;
     border: 3px solid #827263;
     margin-right: 30px;
+    margin-left: 0;
 }
 
 .intro-text {
