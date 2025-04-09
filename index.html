@@ -3,77 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REEKA ESTACIO</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+  <title>Reeka Estacio | Personal Site</title>
   <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <div id="logo">REEKA ESTACIO</div>
-    <nav>
-      <a href="#about">ABOUT</a>
-      <a href="#cv">CV</a>
-      <a href="#projects">PROJECTS</a>
-      <a href="#reachme">REACH ME</a>
-    </nav>
-  </header>
-  <main>
-    <section id="about">
-      <div class="box">
-        <img src="pfp.jpeg" alt="Profile Picture" class="profile-pic">
-        <div class="intro-text">
-          <p class="greeting">Hello, I'm</p>
-          <h1>REEKA ESTACIO</h1>
-          <p class="pronouns">(she/her/hers)</p>
-          <h2>ABOUT ME</h2>
-          <p class="description">
-            I am an M.S. student in Computational Social Science at University of California, San Diego.
-          </p>
-          <p class="description">
-            With a background in Cognitive Science and Linguistics, I am dedicated to advancing NLP technologies—such as large language models and speech recognition—to better accommodate and support diverse linguistic expressions and variability.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="cv">
-      <h2>CV</h2>
-      <div class="cv-container">
-        <iframe src="https://drive.google.com/file/d/1m6ei15ROkaPsuEIpo_ImOLIbhPiqdTXI/preview" width="50%" height="1100"></iframe>
-      </div>
-    </section>
-    <section id="projects">
-      <h2>PROJECTS</h2>
-      <h3>Example Subsection</h3>
-      <p>Short description...</p>
-    </section>
-    <section id="reachme">
-      <h2>REACH ME</h2>
-      <div class="contact-button"><a href="https://github.com/rdestaci" target="_blank">GitHub</a></div>
-      <div class="contact-button"><a href="https://www.linkedin.com/in/reeka-estacio-617701207/" target="_blank">LinkedIn</a></div>
-      <div class="contact-button"><a href="mailto:reekaestacio9@gmail.com">Email</a></div>
-    </section>
-  </main>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#cvresume">CV/Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#links">Links</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="section home">
+    <div class="intro">
+      <p class="small-text">Hello, my name is</p>
+      <h1>Reeka Estacio</h1>
+      <p class="pronouns">(she/her/hers)</p>
+      <p class="roles">Computational Social Scientist, Linguist,<br>& Cognitive Scientist</p>
+    </div>
+    <div class="photo">
+      <img src="images/pfp.jpeg" alt="Reeka Estacio">
+    </div>
+  </section>
+
+  <section id="about" class="section background">
+    <h2>A Quick Background</h2>
+    <div class="background-grid">
+      <div class="card"> <h3>I was born and raised in...</h3> <p>Chula Vista, CA – home of my all-time favorite meal: carne asada fries!</p> </div>
+      <div class="card"> <h3>I studied at...</h3> <p>UC San Diego, where I obtained my bachelor’s and master’s degrees.</p> </div>
+      <div class="card"> <h3>In my free time, I enjoy...</h3> <p>Baking fresh sourdough bread, scrapbooking, and watching live music.</p> </div>
+      <div class="card"> <h3>I am passionate about...</h3> <p>Capturing greater linguistic variability in cutting-edge NLP technologies.</p> </div>
+    </div>
+  </section>
+
+  <section id="cvresume" class="section more">
+    <h2>CV & Resume</h2>
+    <div class="docs">
+      <iframe src="https://drive.google.com/file/d/1m6ei15ROkaPsuEIpo_ImOLIbhPiqdTXI/preview" allow="autoplay"></iframe>
+      <iframe src="https://drive.google.com/file/d/1BMx18j9ObTH6yhVsxTu0PuLjy5sS8voc/preview" allow="autoplay"></iframe>
+    </div>
+  </section>
+
+  <section id="projects" class="section portfolio">
+    <h2>Project Highlights</h2>
+    <div class="project">
+      <h3><a href="https://github.com/rdestaci/ForcedAlignment_ChildSpeechAdapation" target="_blank">Enhancing Forced Alignment Systems for Child Speech</a></h3>
+      <p>Graduate capstone project that aims to improve transcription accuracy of forced alignment systems on child speech.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/rdestaci/Whisper_LLM_Bias" target="_blank">Examining Architectural Biases in Whisper ASR Model</a></h3>
+      <p>An exploratory analysis examining whether OpenAI’s Whisper model (small) exhibits a bias towards its LLM component.</p>
+    </div>
+  </section>
+
+  <section id="links" class="section contact">
+    <h2>Let's Connect</h2>
+    <p>Email: <a href="mailto:reekaestacio9@gmail.com">reekaestacio9@gmail.com</a></p>
+    <p><i class="fab fa-github"></i> <a href="https://github.com/rdestaci" target="_blank">github.com/rdestaci</a></p>
+    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/reeka-estacio-617701207/" target="_blank">linkedin.com/in/reeka-estacio-617701207/</a></p>
+  </section>
 
   <script>
-    document.addEventListener("scroll", () => {
-      const sections = document.querySelectorAll("section");
-      const navLinks = document.querySelectorAll("nav a");
-
-      let currentSection = "";
-      sections.forEach((section) => {
-        const sectionTop = section.offsetTop - 70;
-        if (scrollY >= sectionTop) {
-          currentSection = section.getAttribute("id");
-        }
+    const navLinks = document.querySelectorAll(".navbar a");
+    window.addEventListener("scroll", () => {
+      let current = "";
+      document.querySelectorAll("section").forEach((section) => {
+        const sectionTop = section.offsetTop - 100;
+        if (pageYOffset >= sectionTop) current = section.getAttribute("id");
       });
-
-      navLinks.forEach((link) => {
-        link.classList.remove("active");
-        if (link.getAttribute("href").substring(1) === currentSection) {
-          link.classList.add("active");
-        }
+      navLinks.forEach((a) => {
+        a.classList.remove("active");
+        if (a.getAttribute("href") === `#${current}`) a.classList.add("active");
       });
     });
   </script>
