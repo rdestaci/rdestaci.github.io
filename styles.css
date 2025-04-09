@@ -153,3 +153,47 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
+
+.header-lg {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.docs h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #1f2d2c;
+}
+
+.header-name {
+  font-size: 3rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.roles.emphasized {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.pronouns {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #444;
+  margin-top: -10px;
+}
+
+.home .photo {
+  text-align: center;
+}
+
+.home .photo img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
